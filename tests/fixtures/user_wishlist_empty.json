@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "notifications": [],
+  "response": {
+    "total_count": 0,
+    "is_search": false,
+    "sort": false,
+    "type_id": false,
+    "is_multi_type": false,
+    "country_id": false,
+    "brewery_id": false,
+    "beers": {
+      "count": 0,
+      "items": []
+    },
+    "updated_at": "Tue, 11 Sep 2012 12:37:52 +0000",
+    "created_at": "Tue, 11 Sep 2012 12:37:52 +0000",
+    "sort_english": "Date (New to Old)",
+    "sort_name": "Date (New to Old)",
+    "sort_key": "date"
+  }
+}

@@ -1,12 +1,13 @@
 {
   "domain": "untappd",
-  "version": "0.1.6",
   "name": "Untappd",
-  "documentation": "https://github.com/custom-components/sensor.untappd/blob/master/README.md",
+  "codeowners": ["@hopkinsag1"],
+  "config_flow": true,
   "dependencies": [],
-  "codeowners": [
-  "@iantrich",
-  "@swetoast"
-  ],
-  "requirements": ["pyuntappd==0.0.5"]
+  "documentation": "https://github.com/hopkinsag1/sensor.untappd",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/hopkinsag1/sensor.untappd/issues",
+  "requirements": [],
+  "version": "1.0.0"
 }

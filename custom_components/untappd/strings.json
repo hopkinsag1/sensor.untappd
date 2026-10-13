@@ -1,0 +1,63 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Untappd",
+        "description": "Enter the Untappd username to follow and the Client ID / Client Secret from your Untappd API application.",
+        "data": {
+          "username": "Untappd username",
+          "id": "Client ID",
+          "secret": "Client Secret"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate Untappd",
+        "description": "Untappd rejected the API credentials for {username}. Enter a valid Client ID and Client Secret.",
+        "data": {
+          "id": "Client ID",
+          "secret": "Client Secret"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the Untappd API",
+      "invalid_auth": "Untappd rejected the Client ID / Client Secret",
+      "user_not_found": "No Untappd user with that username (or the profile is private)",
+      "rate_limited": "The hourly Untappd API limit for this key has been used up; try again later",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This Untappd user is already configured",
+      "reauth_successful": "Re-authentication was successful"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Untappd options",
+        "description": "Each poll uses 3 of the 100 API calls Untappd allows per hour, per key.",
+        "data": {
+          "scan_interval_minutes": "Polling interval (minutes)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_checkin_time": { "name": "Last check-in" },
+      "last_badge_time": { "name": "Last badge" },
+      "total_beers": { "name": "Unique beers" },
+      "total_checkins": { "name": "Check-ins" },
+      "total_badges": { "name": "Badges" },
+      "total_friends": { "name": "Friends" },
+      "total_photos": { "name": "Photos" },
+      "api_calls_remaining": { "name": "API calls remaining" }
+    }
+  },
+  "issues": {
+    "deprecated_yaml_import_issue": {
+      "title": "The Untappd YAML configuration could not be imported",
+      "description": "Configuring Untappd via `sensor: - platform: untappd` in configuration.yaml is deprecated and the YAML block for user `{username}` could not be imported automatically (reason: {reason}).\n\nFix the credentials in configuration.yaml and restart Home Assistant, or remove the YAML block and set Untappd up from Settings > Devices & services instead."
+    }
+  }
+}

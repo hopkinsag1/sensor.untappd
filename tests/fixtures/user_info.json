@@ -1,0 +1,531 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "notifications": [],
+  "response": {
+    "user": {
+      "uid": 123456,
+      "id": 123456,
+      "user_name": "beerfan",
+      "is_anonymous": 0,
+      "first_name": "Test",
+      "last_name": "beerfan",
+      "user_avatar": "https://example.invalid/avatar.png",
+      "user_avatar_hd": "https://example.invalid/avatar.png",
+      "user_cover_photo": "https://assets.untappd.com/site/assets/v3/images/cover_default.jpg",
+      "user_cover_photo_offset": 0,
+      "is_private": 0,
+      "rating_bump": 0,
+      "location": "",
+      "url": "",
+      "bio": "",
+      "is_supporter": 0,
+      "is_moderator": 0,
+      "relationship": null,
+      "block_status": "none",
+      "mute_status": "unmute",
+      "untappd_url": "http://untappd.com/user/beerfan",
+      "account_type": "user",
+      "stats": {
+        "total_badges": 691,
+        "total_friends": 32,
+        "total_checkins": 472,
+        "total_beers": 430,
+        "total_created_beers": 0,
+        "total_followings": 4,
+        "total_photos": 169
+      },
+      "recent_brews": {
+        "count": 5,
+        "items": [
+          {
+            "beer": {
+              "bid": 2100736,
+              "beer_name": "Lucky Cat",
+              "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2100736_116e2_sm.jpeg",
+              "beer_abv": 5,
+              "beer_description": "Refreshing citrus flavor of yuzu with Japanese traditional Sansho pepper.",
+              "beer_style": "Wheat Beer - Fruited"
+            },
+            "brewery": {
+              "brewery_id": 15547,
+              "brewery_name": "Kizakura Co.",
+              "brewery_slug": "kizakura-co",
+              "brewery_page_url": "/w/kizakura-co/15547",
+              "brewery_type": "Micro Brewery",
+              "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "brewery_stamp": "/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "country_name": "Japan",
+              "contact": {
+                "twitter": "kizakura_kappa_",
+                "facebook": "https://www.facebook.com/kizakura.jp",
+                "instagram": "kizakura_kappa",
+                "url": "https://kizakura.co.jp"
+              },
+              "location": {
+                "brewery_city": "Fushimi-ku",
+                "brewery_state": "Kyoto",
+                "lat": 34.9306984,
+                "lng": 135.7599945
+              },
+              "brewery_active": 1
+            }
+          },
+          {
+            "beer": {
+              "bid": 2100739,
+              "beer_name": "Lucky Dog",
+              "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2100739_e8843_sm.jpeg",
+              "beer_abv": 5,
+              "beer_description": "Brilliant citrus aroma and sharp bitterness from Citra Hops",
+              "beer_style": "IPA - Session"
+            },
+            "brewery": {
+              "brewery_id": 15547,
+              "brewery_name": "Kizakura Co.",
+              "brewery_slug": "kizakura-co",
+              "brewery_page_url": "/w/kizakura-co/15547",
+              "brewery_type": "Micro Brewery",
+              "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "brewery_stamp": "/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "country_name": "Japan",
+              "contact": {
+                "twitter": "kizakura_kappa_",
+                "facebook": "https://www.facebook.com/kizakura.jp",
+                "instagram": "kizakura_kappa",
+                "url": "https://kizakura.co.jp"
+              },
+              "location": {
+                "brewery_city": "Fushimi-ku",
+                "brewery_state": "Kyoto",
+                "lat": 34.9306984,
+                "lng": 135.7599945
+              },
+              "brewery_active": 1
+            }
+          }
+        ]
+      },
+      "checkins": {
+        "count": 2,
+        "items": [
+          {
+            "checkin_id": 1598853656,
+            "created_at": "Fri, 04 Sep 2026 05:52:56 +0000",
+            "checkin_comment": "",
+            "rating_score": 3,
+            "user": {
+              "uid": 123456,
+              "user_name": "beerfan",
+              "first_name": "Test",
+              "last_name": "beerfan",
+              "location": "",
+              "is_supporter": 0,
+              "url": "",
+              "bio": "",
+              "relationship": null,
+              "user_avatar": "https://example.invalid/avatar.png",
+              "is_private": 0,
+              "public_toasts": 1,
+              "contact": [],
+              "flair": null
+            },
+            "beer": {
+              "bid": 2100736,
+              "beer_name": "Lucky Cat",
+              "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2100736_116e2_sm.jpeg",
+              "beer_style": "Wheat Beer - Fruited",
+              "beer_slug": "kizakura-co-lucky-cat",
+              "beer_abv": 5,
+              "beer_active": 1,
+              "has_had": false
+            },
+            "brewery": {
+              "brewery_id": 15547,
+              "brewery_name": "Kizakura Co.",
+              "brewery_slug": "kizakura-co",
+              "brewery_page_url": "/w/kizakura-co/15547",
+              "brewery_type": "Micro Brewery",
+              "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "brewery_stamp": "/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "country_name": "Japan",
+              "contact": {
+                "twitter": "kizakura_kappa_",
+                "facebook": "https://www.facebook.com/kizakura.jp",
+                "instagram": "kizakura_kappa",
+                "url": "https://kizakura.co.jp"
+              },
+              "location": {
+                "brewery_city": "Fushimi-ku",
+                "brewery_state": "Kyoto",
+                "lat": 34.9306984,
+                "lng": 135.7599945
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 11249239,
+              "venue_name": "Star Noodle",
+              "venue_slug": "star-noodle",
+              "primary_category_en": "Dining and Drinking",
+              "primary_category": "Dining and Drinking",
+              "parent_category_id": "63be6904847c3692a84b9bb5",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_key": "noodle_house",
+                    "category_name_en": "Noodle Restaurant",
+                    "category_name": "Noodle House",
+                    "category_id": "4bf58dd8d48988d1d1941735",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "1287 Front St",
+                "venue_city": "Lahaina",
+                "venue_state": "HI",
+                "venue_country": "United States",
+                "lat": 20.8864956,
+                "lng": -156.685257
+              },
+              "contact": {
+                "twitter": "@starnoodle",
+                "venue_url": "http://www.starnoodle.com"
+              },
+              "foursquare": {
+                "foursquare_id": "6267289ea393f47d0e62369d",
+                "foursquare_url": "https://4sq.com/3Mw3qq0"
+              },
+              "venue_icon": {
+                "sm": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_64.png",
+                "md": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_88.png",
+                "lg": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_512.png"
+              },
+              "is_verified": false,
+              "spotlights": [],
+              "has_beer": false,
+              "has_food": false,
+              "has_wine": false,
+              "has_spirits": false
+            },
+            "comments": {
+              "total_count": 0,
+              "count": 0,
+              "items": []
+            },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": {
+              "count": 1,
+              "items": [
+                {
+                  "photo_id": 663854401,
+                  "photo": {
+                    "photo_img_sm": "https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg",
+                    "photo_img_md": "https://images.untp.beer/crop?width=640&height=640&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg",
+                    "photo_img_lg": "https://images.untp.beer/crop?width=1280&height=1280&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg",
+                    "photo_img_og": "https://assets.untappd.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg"
+                  }
+                }
+              ]
+            },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 1817,
+                  "user_badge_id": 1420941480,
+                  "badge_name": "Photogenic Brew (Level 31)",
+                  "badge_description": "It takes the perfect amount of light, the right framing and a touch of creative love to get the perfect picture of your brew. Now it\u2019s time to drink it! That\u2019s 155 check-ins with a photo. Try 5 more for Level 32!",
+                  "created_at": "Fri, 04 Sep 2026 05:52:57 +0000",
+                  "badge_image": {
+                    "sm": "https://assets.untappd.com/badges/bdg_beertography_sm.jpg",
+                    "md": "https://assets.untappd.com/badges/bdg_beertography_md.jpg",
+                    "lg": "https://assets.untappd.com/badges/bdg_beertography_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 1598852716,
+            "created_at": "Fri, 04 Sep 2026 05:19:07 +0000",
+            "checkin_comment": "",
+            "rating_score": 2.5,
+            "user": {
+              "uid": 123456,
+              "user_name": "beerfan",
+              "first_name": "Test",
+              "last_name": "beerfan",
+              "location": "",
+              "is_supporter": 0,
+              "url": "",
+              "bio": "",
+              "relationship": null,
+              "user_avatar": "https://example.invalid/avatar.png",
+              "is_private": 0,
+              "public_toasts": 1,
+              "contact": [],
+              "flair": null
+            },
+            "beer": {
+              "bid": 2100739,
+              "beer_name": "Lucky Dog",
+              "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2100739_e8843_sm.jpeg",
+              "beer_style": "IPA - Session",
+              "beer_slug": "kizakura-co-lucky-dog",
+              "beer_abv": 5,
+              "beer_active": 1,
+              "has_had": false
+            },
+            "brewery": {
+              "brewery_id": 15547,
+              "brewery_name": "Kizakura Co.",
+              "brewery_slug": "kizakura-co",
+              "brewery_page_url": "/w/kizakura-co/15547",
+              "brewery_type": "Micro Brewery",
+              "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "brewery_stamp": "/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "country_name": "Japan",
+              "contact": {
+                "twitter": "kizakura_kappa_",
+                "facebook": "https://www.facebook.com/kizakura.jp",
+                "instagram": "kizakura_kappa",
+                "url": "https://kizakura.co.jp"
+              },
+              "location": {
+                "brewery_city": "Fushimi-ku",
+                "brewery_state": "Kyoto",
+                "lat": 34.9306984,
+                "lng": 135.7599945
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 11249239,
+              "venue_name": "Star Noodle",
+              "venue_slug": "star-noodle",
+              "primary_category_en": "Dining and Drinking",
+              "primary_category": "Dining and Drinking",
+              "parent_category_id": "63be6904847c3692a84b9bb5",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_key": "noodle_house",
+                    "category_name_en": "Noodle Restaurant",
+                    "category_name": "Noodle House",
+                    "category_id": "4bf58dd8d48988d1d1941735",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "1287 Front St",
+                "venue_city": "Lahaina",
+                "venue_state": "HI",
+                "venue_country": "United States",
+                "lat": 20.8864956,
+                "lng": -156.685257
+              },
+              "contact": {
+                "twitter": "@starnoodle",
+                "venue_url": "http://www.starnoodle.com"
+              },
+              "foursquare": {
+                "foursquare_id": "6267289ea393f47d0e62369d",
+                "foursquare_url": "https://4sq.com/3Mw3qq0"
+              },
+              "venue_icon": {
+                "sm": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_64.png",
+                "md": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_88.png",
+                "lg": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_512.png"
+              },
+              "is_verified": false,
+              "spotlights": [],
+              "has_beer": false,
+              "has_food": false,
+              "has_wine": false,
+              "has_spirits": false
+            },
+            "comments": {
+              "total_count": 0,
+              "count": 0,
+              "items": []
+            },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": {
+              "count": 1,
+              "items": [
+                {
+                  "photo_id": 663853863,
+                  "photo": {
+                    "photo_img_sm": "https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/a3fff6ad9fa62fe7f163822bfbcbff59_c_1598852716_raw.jpg",
+                    "photo_img_md": "https://images.untp.beer/crop?width=640&height=640&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/a3fff6ad9fa62fe7f163822bfbcbff59_c_1598852716_raw.jpg",
+                    "photo_img_lg": "https://images.untp.beer/crop?width=1280&height=1280&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/a3fff6ad9fa62fe7f163822bfbcbff59_c_1598852716_raw.jpg",
+                    "photo_img_og": "https://assets.untappd.com/photos/2026_09_04/a3fff6ad9fa62fe7f163822bfbcbff59_c_1598852716_raw.jpg"
+                  }
+                }
+              ]
+            },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 3816,
+                  "user_badge_id": 1420940843,
+                  "badge_name": "Bar Explorer (Level 34)",
+                  "badge_description": "Your quest to quench your thirst leaves no stone unturned! That's at least 170 distinct venues!",
+                  "created_at": "Fri, 04 Sep 2026 05:19:07 +0000",
+                  "badge_image": {
+                    "sm": "https://assets.untappd.com/badges/bdg_goingPlaces_sm.jpg",
+                    "md": "https://assets.untappd.com/badges/bdg_goingPlaces_md.jpg",
+                    "lg": "https://assets.untappd.com/badges/bdg_goingPlaces_lg.jpg"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pagination": {
+          "since_url": "https://api.untappd.com/v4/user/checkins/beerfan?min_id=1598853656",
+          "next_url": "https://api.untappd.com/v4/user/checkins/beerfan?max_id=1598370155",
+          "max_id": 1598370155
+        }
+      },
+      "media": {
+        "count": 5,
+        "items": [
+          {
+            "photo_id": 663854401,
+            "photo": {
+              "photo_img_sm": "https://images.untp.beer/crop?width=200&height=200&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg",
+              "photo_img_md": "https://images.untp.beer/crop?width=640&height=640&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg",
+              "photo_img_lg": "https://images.untp.beer/crop?width=1280&height=1280&stripmeta=true&url=https://untappd.s3.amazonaws.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg",
+              "photo_img_og": "https://assets.untappd.com/photos/2026_09_04/3443504c8ef003012fc1b7f3cbfa0f3a_c_1598853656_raw.jpg"
+            },
+            "created_at": "Fri, 04 Sep 2026 05:53:01 +0000",
+            "checkin_id": 1598853656,
+            "user": {
+              "uid": 123456,
+              "user_name": "beerfan",
+              "location": "",
+              "bio": "",
+              "first_name": "Test",
+              "last_name": "beerfan",
+              "user_avatar": "https://example.invalid/avatar.png",
+              "account_type": "user",
+              "url": null
+            },
+            "beer": {
+              "bid": 2100736,
+              "beer_name": "Lucky Cat",
+              "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2100736_116e2_sm.jpeg",
+              "beer_abv": 5,
+              "beer_style": "Wheat Beer - Fruited",
+              "beer_description": "Refreshing citrus flavor of yuzu with Japanese traditional Sansho pepper.",
+              "auth_rating": 3,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 15547,
+              "brewery_name": "Kizakura Co.",
+              "brewery_slug": "kizakura-co",
+              "brewery_page_url": "/w/kizakura-co/15547",
+              "brewery_type": "Micro Brewery",
+              "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "brewery_stamp": "/brewery_logos/brewery-KizakuraCoLtd_15547.jpeg",
+              "country_name": "Japan",
+              "contact": {
+                "twitter": "kizakura_kappa_",
+                "facebook": "https://www.facebook.com/kizakura.jp",
+                "instagram": "kizakura_kappa",
+                "url": "https://kizakura.co.jp"
+              },
+              "location": {
+                "brewery_city": "Fushimi-ku",
+                "brewery_state": "Kyoto",
+                "lat": 34.9306984,
+                "lng": 135.7599945
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 11249239,
+              "venue_name": "Star Noodle",
+              "venue_slug": "star-noodle",
+              "primary_category_en": "Dining and Drinking",
+              "primary_category": "Dining and Drinking",
+              "parent_category_id": "63be6904847c3692a84b9bb5",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_key": "noodle_house",
+                    "category_name_en": "Noodle Restaurant",
+                    "category_name": "Noodle House",
+                    "category_id": "4bf58dd8d48988d1d1941735",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "1287 Front St",
+                "venue_city": "Lahaina",
+                "venue_state": "HI",
+                "venue_country": "United States",
+                "lat": 20.8864956,
+                "lng": -156.685257
+              },
+              "contact": {
+                "twitter": "@starnoodle",
+                "venue_url": "http://www.starnoodle.com"
+              },
+              "foursquare": {
+                "foursquare_id": "6267289ea393f47d0e62369d",
+                "foursquare_url": "https://4sq.com/3Mw3qq0"
+              },
+              "venue_icon": {
+                "sm": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_64.png",
+                "md": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_88.png",
+                "lg": "https://ss3.4sqi.net/img/categories_v2/food/ramen_bg_512.png"
+              },
+              "is_verified": false,
+              "spotlights": [],
+              "has_beer": false,
+              "has_food": false,
+              "has_wine": false,
+              "has_spirits": false
+            }
+          }
+        ]
+      },
+      "contact": [],
+      "date_joined": "Tue, 11 Sep 2012 12:37:52 +0000",
+      "settings": [],
+      "flair": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "code": 500,
+    "error_detail": "Invalid client_secret and client_id. Please try again.",
+    "error_type": "invalid_token",
+    "developer_friendly": ""
+  },
+  "response": []
+}

@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "code": 200
+  },
+  "notifications": [],
+  "response": {
+    "type": "earned",
+    "sort": "all",
+    "count": 2,
+    "items": [
+      {
+        "badge_id": 798862,
+        "user_badge_id": 1389226115,
+        "checkin_id": 1567995372,
+        "badge_name": "Beer Gear Summer Giveaway",
+        "badge_description": "Chill Out. Gear Up. Win Big. We've teamed up with New Trail Brewing, Bushnell, Lems Shoes, RovR, Thule, and Tifosi Optics, our friends who live and breathe outdoor beer life, to put together one seriously stacked summer prize package. Every outdoor check-in gets you an entry to a free giveaway!\n",
+        "badge_hint": "Check in one (1) US-based brewery beer between May 1, 2026 through July 31, 2026 to receive the badge.",
+        "badge_active_status": 0,
+        "media": {
+          "badge_image_sm": "https://assets.untappd.com/badges/BeerGear-Summer-2026-Badge_1000x1000.jpg",
+          "badge_image_md": "https://assets.untappd.com/badges/BeerGear-Summer-2026-Badge_1000x1000.jpg",
+          "badge_image_lg": "https://assets.untappd.com/badges/BeerGear-Summer-2026-Badge_1000x1000.jpg"
+        },
+        "earned_at": "Wed, 06 May 2026 21:00:36 +0000",
+        "created_at": "Wed, 06 May 2026 21:00:36 +0000",
+        "is_level": false,
+        "category_id": 3,
+        "levels": [],
+        "badge_pack": 0,
+        "badge_pack_name": false,
+        "badge_pack_progress": {
+          "completed": 0,
+          "total": 0
+        }
+      },
+      {
+        "badge_id": 47,
+        "user_badge_id": 1383095804,
+        "checkin_id": 1561273325,
+        "badge_name": "Das Boot",
+        "badge_description": "Das sind mindestens 5 deutsche Biere! David Hasselhoff would be proud of you. Prost! Try 5 more for Level 2.",
+        "badge_hint": "Enjoy some German beers. 5 different ones to be exact.",
+        "badge_active_status": 1,
+        "media": {
+          "badge_image_sm": "https://assets.untappd.com/badges/bdg_DasBoot16_sm.jpg",
+          "badge_image_md": "https://assets.untappd.com/badges/bdg_DasBoot16_md.jpg",
+          "badge_image_lg": "https://assets.untappd.com/badges/bdg_DasBoot16_lg.jpg"
+        },
+        "earned_at": "Wed, 08 Apr 2026 16:18:59 +0000",
+        "created_at": "Wed, 08 Apr 2026 16:18:59 +0000",
+        "is_level": true,
+        "category_id": 1,
+        "levels": {
+          "count": 1,
+          "items": [
+            {
+              "actual_badge_id": 47,
+              "badge_id": 1383095804,
+              "checkin_id": 1561273325,
+              "badge_name": "Das Boot",
+              "badge_description": "Das sind mindestens 5 deutsche Biere! David Hasselhoff would be proud of you. Prost! Try 5 more for Level 2.",
+              "media": {
+                "badge_image_sm": "https://assets.untappd.com/badges/bdg_DasBoot16_sm.jpg",
+                "badge_image_md": "https://assets.untappd.com/badges/bdg_DasBoot16_md.jpg",
+                "badge_image_lg": "https://assets.untappd.com/badges/bdg_DasBoot16_lg.jpg"
+              },
+              "created_at": "Wed, 08 Apr 2026 16:18:59 +0000"
+            }
+          ]
+        },
+        "badge_pack": 0,
+        "badge_pack_name": false,
+        "badge_pack_progress": {
+          "completed": 0,
+          "total": 0
+        }
+      }
+    ]
+  }
+}
